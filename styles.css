@@ -13,6 +13,10 @@
     padding: 20px 40px 20px 40px;
 }
 
+.header-image {
+    font-size: 18px;
+}
+
 .links {
     display: flex;
 }
@@ -21,6 +25,7 @@
 .linktwo,
 .linkthree {
     margin-left: 15px;
+    font-size: 18px;
 }
 
 #imag {
@@ -29,7 +34,8 @@
 }
 
 .welcome {
-    border: 2px solid red;
+    background-color: #1f2937;
+    color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -39,186 +45,87 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid green;
+    padding: 15px;
+}
+
+#welcome-text {
+    font-size: 18px;
 }
 
 .welcome-group-two {
-    border: 2px solid blue;
+    padding: 15px;
 }
+
 #welcome-text {
-    width: 400px;
-    padding: 20px 0 20px 0;
-}
-
-.signbutton {
-    border: 2px solid red;
-}
-
-@media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .welcome-text {
-      width: 100%;
-/*
-.header-image {
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 20px;
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-.onlylinks {
-    display: flex;
-    margin-right: 70px;
-    width: 300px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.linkone,
-.linktwo,
-.linkthree {
-    font-size: 18px;
-    color: #e5ebe8;
-}
-
-/*
-.intro {
-    margin-top: 100px;
-    display: flex;
-    width: 1200px;
-    justify-content: space-between;
-}
-
-.placeholder {
-    margin-left: 150px;
+    padding: 15px;
 }
 
 .signbutton {
     background-color: #3882f6;
-    color: #e5ebe8;
-    font-size: 20px;
-    padding: 5px;
-    cursor: pointer;
-    border-color: #3882f6;
-    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid white;
 }
 
-#title {
-    font-weight: bolder;
-    font-size: 48px;
-    color: #f9faf8;
+#body-title {
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
 }
 
-#paragraphone {
-    font-size: 18px;
-    color: #e5ebe8;
-}
-
-.bcontainer {
+.grid-container {
     display: flex;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    color: #1f2937;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.grid-container,
-.grid-containertwo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-}
-
-.gridone,
-.gridtwo,
-.gridthree,
-.gridfour {
-    width: 200px;
-    height: 200px;
-    border: 3px solid #3882f6;
-    margin-left: 100px;
-    border-radius: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.gridonetext,
-.gridtwotext,
-.gridthreetext,
-.gridfourtext {
-    width: 200px;
-    height: 50px;
-    margin-left: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: -100px;
-}
-
-.quote-section {
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e5e7eb;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .testimony {
-    text-align: center;
-    font-size: 24px;
-    color: #1f2937;
-}
-
-#anon {
-    float: right;
-    margin-right: 200px;
-
-}
-
-.calltoaction-container {
+    margin-top: 15px;
     display: flex;
-    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.quote.one {
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+}
+.quote.two {
+    font-size: 24px;
+}
+
+.calltoaction {
+    display: flex;
+    height: 150px;
     justify-content: center;
     align-items: center;
 }
 
-.allblue {
-    display:flex;
+.colorb {
     background-color: #3882f6;
     border-radius: 5px;
-
-}
-
-.calltoaction {
-    font-size: 20px;
-    padding: 35px 60px 35px 60px;
-    color: white;
-}
-
-#sunow {
-    background-color: white;
-    color: #3882f6;
-    font-size: 20px;
-    margin: 35px 60px 35px 0;
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.footer-container {
-    background-color: #1f2937;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+}
+
+.row-one,
+.row-two {
+    padding: 20px;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    height: 50px;
 }
