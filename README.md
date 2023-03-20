@@ -5,3 +5,5 @@ I have now re-made the landing page. I understand the concept of Flexbox a lot m
 play with abusive widths, I just let flex to take care of the responsive design whenever the window gets minimised.
 
 I have a long way ahead of me to improve though!
+
+https://luigi-alexandru.github.io/landing-page/
